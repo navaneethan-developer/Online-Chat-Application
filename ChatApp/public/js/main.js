@@ -10,12 +10,10 @@ const {username, room } =   Qs.parse(location.search, {
 });
 
 // console.log(username, room);
-
 const socket = io();
 
 // Join the Chat Room
 socket.emit('joinRoom', {username, room});
-
 
 //Get room and users
 socket.on('roomUsers', ({room, users})=>{
@@ -63,7 +61,6 @@ function outputRoomName(room){
 }
 
 // Add users to DOM
-
 function outputUsers(users){
     userList.innerHTML = `
         ${users.map(user => `<li>${user.username}</li>`).join('')}
