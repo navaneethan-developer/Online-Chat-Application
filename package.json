@@ -5,7 +5,7 @@
   "description": "An Online Chat Application with Real time Chat Rooms",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
