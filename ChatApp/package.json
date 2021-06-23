@@ -1,7 +1,8 @@
 {
   "name": "ChatApp",
   "version": "1.0.0",
-  "description": "",
+  "author": "Navaneethan S",
+  "description": "An Online Chat Application with Real time Chat Rooms",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
